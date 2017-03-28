@@ -1,0 +1,1045 @@
+#afui .fullScreen {
+    margin: auto;
+    /*width: 100%; */
+    /*margin-top: 4px;*/
+    /*position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);*/
+    /*margin-top: -25%;*/
+}
+#afui .list {
+    width: 92%;
+    background-color: black !important;
+    border: none !important;
+}
+#afui .list>li>a:after {
+    content: none;   
+}
+
+#afui .list>li>a {
+    text-align: center;   
+}
+
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 10px yellow;
+    }
+}
+/*
+#afui h1{
+    font-size: 20px !important;
+    width: 88% !important;
+    left: 6% !important;
+}
+*/
+#afui a {
+    z-index: 3;   
+}
+#afui.ios7 .header {
+    margin-top: 20px;
+}
+#afui.ios7.android .header {
+    margin-top: 0px;
+}
+#modalHeader .header{
+    margin-top: 0px;   
+}
+#afui #modalContainer{
+padding: 0px;
+}
+#afui .header h1 {
+    padding: 6px 0;
+    width: 55%;
+    left: 22.5%;
+    z-index: 0;
+    font-size: 20px;
+}
+
+#afui .header .button {
+    padding: 0px 7px;
+}
+#afui .sidebar-content {
+    overflow-y: scroll;
+}
+#afui .grid {
+ overflow: auto !important;   
+}
+#afui .d-margins {
+  margin-top: -1px;   
+}
+#afui .uib_w_20 {
+  margin-top: 9px;   
+}
+#afui .uib_w_100, .uib_w_101, .uib_w_102, .uib_w_103 , .uib_w_113 , .uib_w_200, .uib_w_201, .uib_w_203 {
+  width: 25%;
+  float:left;   
+}
+#afui .score {
+    position:absolute; 
+    left: 0px;
+    width:50%; 
+    margin-top:8px; 
+    color:yellow;
+    text-align: center;
+    z-index: 0;
+}
+#afui .shared {
+    position:absolute;
+    display: block !important;
+    right:1%;
+    width:53%; 
+    margin-top:8px; 
+    text-align: center;
+    z-index: 0;
+}
+#afui .fa-share{
+    right: 5%;   
+}
+#afui .uib_w_113{
+    right: 5%;   
+}
+textarea:focus, input:focus{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    -webkit-tap-highlight-color: transparent;
+}
+input[type="password"], input[type="text"], input[type="search"], input[type="email"]{
+  position:relative;
+  top:-10000px;
+  -webkit-transform: translate3d(0, 10000px, 0);
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    -webkit-tap-highlight-color: transparent;
+}
+#afui.ios7.android .footer>footer>a.pressed:not(.button) {
+    border-top: 0px;
+    margin-top: 4px;
+}
+#afui.ios7 .score {
+ color: yellow !important; //#F1C222
+}
+#afui .footer {
+  margin-top: 4px;   
+}
+#afui .wide80{
+ width: 80%;   
+ height: 100%;
+ display: table;
+}
+#afui .wide70{
+ width: 64%;   
+ height: 100%;
+ display: table;
+}
+#afui .wide50{
+    width: 50% !important;   
+    min-width: 160px !important;
+}
+#afui .sliderwide{
+ width: 82%;   
+ height: 100%;
+ display: table;
+}
+#afui .sliderleft{
+    margin-left: 5%;   
+}
+#afui .slidercenter{
+    margin-left: 28%;   
+}
+#afui.ios7.android .yellow{
+ color: yellow !important;   
+}
+#afui.win8 .yellow{
+ color: yellow !important;   
+}
+/*
+#afui.ios7 .uib_w_5 {
+ color: yellow !important;
+}*/
+#afui .uib_w_200, .uib_w_201 {
+ color: yellow !important;
+}
+#afui.ios7 .uib_w_200, #afui.ios7 .uib_w_201 {
+ color: yellow !important;
+}
+#afui.ios7 .footer>footer>a:not(.button) {
+color: yellow !important;
+}
+#afui.ios7 .yellow{
+ color: yellow !important;   
+}
+
+#afui .grey{
+ color: #a8a8a8 !important;   
+}
+#afui.ios .yellow{
+ color: yellow !important;
+ text-shadow: 0px 0px 4px orange !important;
+ /*-webkit-text-stroke: 1px gold;*/
+}
+#afui .button{
+ border: 0px !important;
+ background: transparent !important;
+ box-shadow: none !important;
+}
+#afui .button.pressed{
+    -webkit-animation: glow .5s 1 !important;
+    text-shadow: 0px 0px 10px yellow !important;
+}
+#afui .big{
+ font-size: 13pt !important;
+}
+#afui .bigg{
+ font-size: 16pt !important;
+}
+#afui .bigger{
+ font-size: 20pt !important;
+}
+#afui .biggest{
+ font-size: 24pt !important;   
+}
+#afui .table{
+ display: table;
+}
+#afui .topc{
+ /*   height: 150px; */
+    display: table-row;
+    height: 50%;
+}
+#afui .middlec{
+ /*   height: 100px; */
+    display: table-row;
+    height: 30%;
+}
+#afui .bottomc{
+    display: table-row;
+    height: 20%;
+}
+#afui .topcell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#afui .middlecell{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+#uploadphotospid{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.icon:before {
+ left: 0px;
+ top: 0px;
+}
+li .icon:before {
+position: relative;
+width: auto;
+height: auto;
+top: auto;
+line-height: 1 !important;
+margin-right: auto;
+}
+#afui .wcenter{
+ text-align: -webkit-center;
+ margin: auto;
+}
+#afui .maxW{
+ /*max-width: 100%;*/
+    max-width: 512px;
+    width: 100%;
+ margin: auto;
+}
+#afui .maxW396{
+    position: relative;
+ /*min-width: 320px;
+ width: 396px;*/
+     max-width: 487px;
+     width: 100%;
+ max-width: 100%;
+ margin: auto;
+}
+#afui footer>a.icon:not(.button):before {
+ top: 6px;   
+}
+#afui .right{
+ float: right;
+    z-index: 2 !important;
+}
+#afui .left{
+ float: left;
+    z-index: 2 !important;
+}
+#afui .hideMe{
+ position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: inherit;
+    z-index: 10000;
+}
+#afui .tutMe{
+ position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    /*background: rgba(255,255,0,0.1);*/
+    z-index: 10000;
+}
+#afui .infinite {
+ margin-top: 48px;   
+}
+#afui .memeL {
+    position: relative;
+ min-height: 1024px;
+    width: 100%;
+ max-width: 100%;
+ margin: auto;
+}
+#afui .disabled{
+ color: gray !important;
+}
+#afui .overhid{
+ overflow: hidden;   
+}
+#afui .padding{
+ padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#afui .byellow{
+    color: orange !important;
+ background-color: yellow !important;   
+}
+#afui .borange{
+    color: white !important;
+ background-color: orange !important;   
+}
+#afui .bred{
+    color: white !important;
+ background-color: red !important;   
+}
+#afui .bgreen{
+    color: white !important;
+ background-color: green !important;   
+}
+#afui .bindigo{
+    color: white !important;
+ background-color: indigo !important;   
+}
+#afui .bblue{
+    color: white !important;
+ background-color: blue !important;   
+}
+#afui .bpurple{
+    color: white !important;
+ background-color: purple !important;   
+}
+#afui .bpink{
+    color: white !important;
+ background-color: pink !important;   
+}
+#afui .active-graphic-button:active {
+    color: lightgray;
+background-color: yellow;
+}
+#afui ul li{
+list-style-type: none !important;
+}
+#afui.ios7.android .button.red{
+ color: red !important;   
+}
+#afui .mheight{
+ min-height: 180px;   
+}
+#afui .icon-omg-smiley{
+    -webkit-transform:scale(1,1.1);
+    margin-bottom: 1px !important;
+    bottom: 1px;
+    z-index: 2;
+}
+#afui .icon-circle{
+    -webkit-transform:scale(1,1.1);
+    margin-bottom: 1px !important;
+    bottom: 1px;
+    left: 56px;
+    z-index: 1;
+}
+#afui .lower{
+    position: relative;
+    /*top: -2px;*/
+}
+#afui .lowest{
+    position: relative;
+    margin-top: 20%;
+}
+#afui .piclist{
+ /*   max-width: 396px; */
+}
+#afui header a{
+ z-index: 2;   
+}
+#afui .lock{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#afui label{
+    width: auto;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16%;
+    padding-right: 0px;
+}
+#afui .with-label .label-inline{
+    width: 70%;
+}
+#afui .with-label{
+    margin: auto;
+   
+}
+#afui .af-badge{
+    color: grey;
+    font-weight: 700;
+    max-width: 320px;
+    height: auto;
+    padding: 9px;
+    line-height: 22px;
+    font-size: 18px !important;
+    background-color: #ffffe0;
+    border-style: solid !important;
+    border-color: yellow !important;
+    border-width: 2px !important;
+    text-shadow: 0 0px 0px rgba(64,0,0,.6);
+}
+#afui .tops{
+    position: fixed;
+    right: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    z-index: 7;
+}
+#afui .topr{
+    right: 2px;
+    top: 60px;
+}
+#afui .topl{
+    left: 2px;
+    top: 60px;
+    height: auto;
+}
+#afui .botm {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 190px;
+    height: auto;
+    top: auto;
+    right: auto;
+    left: -50%;
+    bottom: 14%;
+    z-index: 70 !important;
+}
+#afui .botr{
+    display: block;
+    position: absolute;
+    line-height: 22px;
+    width: 250px;
+    height: auto;
+    top: -80px;
+    bottom: auto;
+    left: auto;
+    right: -100%;
+    font-size: 18px !important;
+    z-index: 7 !important;
+}   
+#afui .botl{
+    display: block;
+    position: absolute;
+    float: left;
+    width: 33%;
+    height: auto;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: 11%;
+}
+#afui .arrow {
+    background-color: yellow;
+    z-index: -1;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  -webkit-box-shadow: 6px 5px 9px -9px black,
+                      5px 6px 9px -9px black;
+  -webkit-transform: rotate(45deg);
+}
+#afui .arrow.tpr{
+    position: absolute;
+    bottom: auto;
+    left: auto;
+    top: -7px;
+    right: 11px;
+    -webkit-transform: rotate(135deg);
+}
+#afui .arrow.tpl{
+    position: absolute;
+    bottom: auto;
+    right: auto;
+    top: -7px;
+    left: 16px;
+    -webkit-transform: rotate(315deg);
+}
+#afui .arrow.btlh{
+    position: absolute;
+    top: auto;
+    left: 80%;
+    bottom: 92%;
+    right: auto;
+    -webkit-transform: rotate(270deg);
+}
+#afui .arrow.btl{
+    position: absolute;
+    padding: 0px;
+    top: auto;
+    left: 87%;
+    bottom: 19%;
+    right: auto;
+}
+#afui .arrow.btr{
+    position: absolute;
+    top: 50%;
+    left: auto;
+    bottom: auto;
+    right: 95%;
+    z-index: -3 !important;
+}
+#afui .third{
+    width: 33%;  
+    margin-top: -3px;
+}
+#afui .smaller{
+    font-size: .75em;
+    margin-top: -4px;
+}
+#afui .taller{
+    margin-top: 0px;
+}
+#afui .quarter{
+    width: 25%;  
+    margin-top: -3px;
+}
+#afui .loneb{
+    margin-top: 3px;   
+}
+#afui .lonec{
+    margin-top: 7px;   
+}
+#afui .adult{
+      
+}
+#scenarios span{
+    position: relative;
+    display: inline-block;
+    top: 18px;
+}
+#afui .plusspan{
+    position: relative;
+    top: -6px;   
+}
+#afui .sliding{
+    position: fixed;
+    top: 43px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 18px;
+}
+#afui .scon{
+    width: 100%;
+}
+#afui .scon span{
+    /*top: -2px;   */
+}
+#afui.ios7 .scon{
+    border-bottom: 1px solid rgba(158,158,158,255);   
+}
+#afui.ios7.android .scon{
+    border-bottom: 1px solid #33B5E5;
+}
+#afui .hanger{
+    position: relative;
+    top: 39px;
+}
+#afui .front{
+    z-index: 200 !important;   
+}
+#afui .fifth{
+    text-align: center;
+    padding: 0px 4px;
+}
+#header{
+    height:35px !important;
+}
+#modalHeader{
+    height:35px !important;
+}
+#modalHeader .header .button {
+padding: 10px;
+}
+#afui .header{
+    overflow: visible;
+}
+#afui .top4{
+    top: 4px;   
+}
+#afui .hbest{
+    position: absolute;
+    left: 0px;
+}
+#afui .hlatest{
+    position: relative;
+}
+#afui .hworst{
+    position: absolute;
+    right: 0px;
+}
+#tempLoading{
+    height: 60px;
+    line-height: 60px;
+}
+/*
+@media only screen 
+and (min-device-height : 668px) 
+and (max-device-height : 2200px) 
+and (orientation : portrait) {
+#zoomPic{
+    margin-top: 15% !important;   
+}
+}
+@media only screen 
+and (min-device-height : 0px) 
+and (max-device-height : 480px) 
+and (orientation : portrait) {
+#zoomPic{
+    margin-top: 0px !important;   
+}
+}
+@media only screen 
+and (min-device-height : 481px) 
+and (max-device-height : 569px) 
+and (orientation : portrait) {
+#zoomPic{
+    margin-top: 5% !important;   
+}
+}
+@media only screen 
+and (min-device-height : 570px) 
+and (max-device-height : 667px) 
+and (orientation : portrait) {
+#zoomPic{
+    margin-top: 8% !important;   
+}
+}
+*/
+#front_user{
+    position: absolute;
+    left: -120px;
+    top: 27px;
+}
+#back_users{
+    position: absolute;
+    left: 9px;
+    top: 27px;
+}
+#back_users2{
+    position: absolute;
+    left: 2px;
+    top: 27px;
+}
+#back_users3{
+    position: absolute;
+    left: 16px;
+    top: 27px;
+}
+#back_square{
+    display: none;
+    position: absolute;
+    left: -20px;
+    top: 29px;
+}
+#back_square2{
+    display: none;
+    position: absolute;
+    left: -21px;
+    top: 29px;
+}
+#back_square3{
+    display: none;
+    position: absolute;
+    left: -22px;
+    top: 29px;
+}
+#front_square{
+    display: none;
+    position: absolute;
+    left: -120px;
+    top: 29px;
+}
+#front_user_span{
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    left: -129px;
+    top: 16px;
+    height: 40px;
+    width: 30px;
+}
+#back_users_span{
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    left: -5px;
+    top: 21px;
+    height: 30px;
+    width: 40px;
+}
+#back_usersG{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    z-index: 1;
+}
+#back_users2G{
+    position: absolute;
+    left: 12px;
+    top: 3px;
+    z-index: 1;
+}
+#back_users3G{
+    position: absolute;
+    left: 19px;
+    top: 3px;
+    z-index: 1;
+}
+#front_squareG{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#front_user_spanG{
+    display: block;
+    position: absolute;
+    border: 3px solid;
+    left: 21px;
+    top: -35px;
+    height: 40px;
+    width: 30px;
+}
+#back_users_spanG{
+    display: block;
+    position: absolute;
+    border: 3px solid;
+    top: -30px;
+    left: 16px;
+    height: 30px;
+    width: 40px;
+}
+#afui .gallicon{
+    position: absolute;
+    left: 5px;
+    top: -5px;
+}
+#afui.ios7.android .black{
+    color: black !important;
+}
+#afui.ios7 .black{
+    color: #3f3f3f;
+}
+#afui .upspace{
+    padding-top: 12px;   
+}
+#afui input[type="range"]::-webkit-slider-thumb {
+/*     -webkit-appearance: none;
+    background-color: #666;
+    opacity: 0.5;*/
+    width: 26px !important;
+    height: 26px !important;
+}
+#afui .bold{
+    font-weight: 700 !important;   
+}
+#afui input.toggle+label>span {
+    top: 0px;   
+}
+#afui input.toggle+label {
+    height: 30px !important;   
+    line-height: 23px !important;
+    padding: 0px !important;
+}
+#afui .swLtut{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: -35px;
+}
+#afui .swLStut{
+    display: none;
+    position: absolute;
+    top: 133px;
+    left: 105px;
+}
+#afui .swRLtut{
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 105px;
+}
+#afui .swRRtut{
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 105px;
+}
+#afui .swRtut{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#afui .swipeleft{
+    position: absolute;  
+    top: 15px;
+    left: 6px;
+    -webkit-transform: scale(1.5,.7);
+    z-index: -1;
+}
+#afui .swiperight{
+    position: absolute;
+    top: 15px;
+    right: 6px;
+    -webkit-transform: scale(1.5,.7);
+    z-index: -1;
+    
+}
+#afui .login {
+    top: -26px;
+    margin-left: -6px;
+}
+#afui .red{
+    color: red !important;   
+}
+#afui .green{
+    color: green;   
+}
+#afui .padb{
+    padding-bottom: 14px;   
+}
+#afui .categorybadge{
+    font-size: 20px;
+}
+#afui .height46{
+    height: 46px;   
+}
+#afui .inclnum{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 12px;
+}
+#afui .purchme{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 12px;
+}
+#afui .headp{
+    font-size: 14pt !important;
+}
+.afPopup{
+      background-color: black !important;
+}
+#afui .scrollme{
+    overflow-y: auto; 
+    overflow-x: hidden;
+    min-height: 200px;
+}
+#afui.ios7 .cback{
+    border-bottom-right-radius: 10px;
+    left: -1px;
+    top: 1px;
+    height: 88%;
+}
+#categoryPopup {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    height: 80% !important;  
+    width: 90% !important;
+    max-width: 480px;
+}
+#categoryPop {
+     min-height: 200px; !important;   
+    height: 100%;
+}
+#categoryPopup footer{
+    height: 44px;   
+}
+.afPopup.hidden{
+    display: inline-block !important;
+    opacity: 1 !important;
+}
+.afPopup{
+    top: 1200px;
+    -webkit-transform: scale(1);
+    -webkit-transition: all .2s ease-in-out;
+}
+#uploadPopup {
+    visibility: hidden;
+}
+#searchPopup{
+    visibility: hidden;
+}
+#afui input[type=search]{
+    margin-bottom: 0px;
+    background: transparent;
+}
+#afui .searchsc{
+    position: relative;
+    height: 25px !important;
+    text-align: center;
+    margin-bottom: 2px !important;
+}
+#afui .mt4{
+    margin-top: 0px; /*-4px;   */
+}
+#afui .tp1{
+    position: relative;
+    top: 1px;
+    left:  1px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+#reaction_header{
+    border-bottom: none !important;
+}
+#afui.ios7.android .inset{
+    background-color: black;
+}
+#searchscenariospid{
+    z-index: 20;
+}
+#afui .z1{
+    z-index: 1;
+}
+#afui .width99{
+    width: 99%;
+}
+#afui .pad10{
+    padding: 10px;
+}
+input[type="password"], input[type="text"], input[type="search"], input[type="email"], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 1px 1px 1px 1px;
+  border: 1px solid #DDDDDD;
+    background-color: black !important;
+}
+
+
+input[type="password"]:focus, input[type="text"]:focus, input[type="search"]:focus, input[type="email"]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 1px 1px 1px 1px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#afui, .panel, .header, .footer{
+    color: lightgrey !important;
+    background-color: black !important;
+    border-bottom-color: #2a2a2a !important;
+    border-top-color: #2a2a2a !important;
+}
+#afui.ios7.android .afPopup>FOOTER {
+background: black;
+}
+#afui .leftsmiley{
+    left: -56px;
+}
+#afui .camsmiley{
+    top: -45px;
+    left: 0px;
+    z-index: -1;
+}
+#afui.ios7.android .camsmiley{
+    top: -42px;
+    left: 0px;
+    z-index: -1;
+}
+#afui.ios7.android .afPopup>FOOTER>A#action {
+margin: 0px;
+width: 50%;
+    height: 100%;
+}
+#afui.android input.toggle+label>span {
+ border-radius: 50px;
+ top: 0; 
+ width: 28px; 
+ height: 28px; 
+}
+#afui.android input.toggle+label {
+ border-radius: 50px; 
+}
+#afui.android .afPopup {
+border: 1px solid rgba(158,158,158,255);
+border-radius: 10px;
+padding: 0;
+text-align: center;
+color: inherit;
+background: rgba(249,249,249,1);
+}
+#afui.android .afPopup>HEADER {
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+padding: 10px;
+}
+#afui.ios7.android .afPopup>FOOTER {
+border-top: 0px solid #aaa;
+    border-radius: 10px;
+}
+#afui.android .afPopup>DIV {
+font-size: 14px;
+text-align: center;
+padding: 10px;
+margin: 0;
+border-top: solid 0px #aaa;
+border-bottom: solid 1px #aaa;
+}
+#afui .pl10 {
+    padding-left: 10px !important;
+}

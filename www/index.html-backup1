@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <script src="intelxdk.js"></script>
+    <script src="cordova.js"></script>
+    <script type="application/javascript" src="js/jquery.min.js"></script>
+    <script type="application/javascript" src="marginal/marginal-position.min.js"></script>
+    <script type="application/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="uwrap">
+      <div class="upage" id="mainpage">
+        <div class="upage-outer">
+          <div class="uib-header header-bg container-group inner-element uib_w_1" data-uib="layout/header" data-ver="0" id="af-header-0">
+            <h2>Reaction</h2>
+            <div class="widget-container wrapping-col single-centered"></div>
+            <div class="widget-container content-area horiz-area wrapping-col left"></div>
+            <div class="widget-container content-area horiz-area wrapping-col right"></div>
+          </div>
+          <div class="upage-content" id="mainsub">
+            <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+              <div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+                <div class="widget-container content-area center-h-v-col">
+
+                  <div class="list-group widget uib_w_16 d-margins" data-uib="twitter%20bootstrap/list_group" data-ver="0" id="reactList">
+                    <a class="list-group-item allow-badge widget uib_w_17 d-margins" data-uib="twitter%20bootstrap/list_item" data-ver="0">
+                      <h4 class="list-group-item-heading">Heading</h4>
+                      <p class="list-group-item-text">I just saw a Funny Clown</p>
+                    </a>
+                    <a class="list-group-item allow-badge widget uib_w_18 d-margins" data-uib="twitter%20bootstrap/list_item" data-ver="0">
+                      <h4 class="list-group-item-heading">Heading</h4>
+                      <p class="list-group-item-text">I just saw a Scary clown</p>
+                    </a>
+                    <a class="list-group-item allow-badge widget uib_w_19 d-margins" data-uib="twitter%20bootstrap/list_item" data-ver="0">
+                      <h4 class="list-group-item-heading">Heading</h4>
+                      <p class="list-group-item-text">I just saw Road Kill</p>
+                    </a>
+                  </div><span class="uib_shim"></span>
+                </div>
+              </div>
+              <span class="uib_shim"></span>
+            </div>
+          </div>
+          <div id="uib_page_1" class="upage-content hidden">
+            <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+              <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+                <div class="widget-container content-area vertical-col left">
+
+                  <div class="widget uib_w_8 d-margins" data-uib="media/text" data-ver="0">
+                    <div class="widget-container left-receptacle"></div>
+                    <div class="widget-container right-receptacle"></div>
+                    <div>
+                      <p>This will start the forward facing camera.</p>
+                    </div>
+                  </div><span class="uib_shim"></span>
+                </div>
+              </div>
+              <span class="uib_shim"></span>
+            </div>
+          </div>
+          <div id="uib_page_2" class="upage-content hidden">
+            <div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+              <div class="col uib_col_3 col-0_12-12" data-uib="layout/col" data-ver="0">
+                <div class="widget-container content-area vertical-col left">
+
+                  <div class="widget uib_w_9 d-margins" data-uib="media/text" data-ver="0">
+                    <div class="widget-container left-receptacle"></div>
+                    <div class="widget-container right-receptacle"></div>
+                    <div>
+                      <p>This will start the rear facing camera.</p>
+                    </div>
+                  </div><span class="uib_shim"></span>
+                </div>
+              </div>
+              <span class="uib_shim"></span>
+            </div>
+          </div>
+          <div id="uib_page_3" class="upage-content hidden">
+            <div class="grid grid-pad urow uib_row_4 row-height-4" data-uib="layout/row" data-ver="0">
+              <div class="col uib_col_4 col-0_12-12" data-uib="layout/col" data-ver="0">
+                <div class="widget-container content-area vertical-col left">
+
+                  <div class="widget uib_w_10 d-margins" data-uib="media/text" data-ver="0">
+                    <div class="widget-container left-receptacle"></div>
+                    <div class="widget-container right-receptacle"></div>
+                    <div>
+                      <p>This will bring up a share dialog.</p>
+                    </div>
+                  </div><span class="uib_shim"></span>
+                </div>
+              </div>
+              <span class="uib_shim"></span>
+            </div>
+          </div>
+          <!-- /upage-content -->
+
+        </div>
+        <!-- /upage-outer -->
+
+      </div>
+      <!-- /upage -->
+
+    </div>
+    <!-- /uwrap -->
+  </body>
+
+</html>
