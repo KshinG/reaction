@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="10" id="com.reactionthegame.reaction" ios-CFBundleVersion="" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <name>Reaction</name>
+    <description>Take a Pic of your or your friends' Reactions to 100's of Scenarios. Laugh and Share!</description>
+    <author>Reaction the Game Inc</author>
+    <content src="index.html" />
+    <allow-intent href="mailto:*" />
+    <access origin="http://reactionthegame.com/*" />
+    <access origin="https://reactionthegame.com/*" />
+    <access origin="mailto:*" />
+    <icon height="36" platform="android" src="package-assets/SmileyLaunchIcon36.png" width="36" />
+    <icon height="48" platform="android" src="package-assets/SmileyLaunchIcon48.png" width="48" />
+    <icon height="72" platform="android" src="package-assets/SmileyLaunchIcon72.png" width="72" />
+    <icon height="96" platform="android" src="package-assets/SmileyLaunchIcon96.png" width="96" />
+    <splash height="426" orientation="portrait" platform="android" src="package-assets/SplashScreen320x426.png" width="320" />
+    <splash height="470" orientation="portrait" platform="android" src="package-assets/SplashScreen320x470.png" width="320" />
+    <splash height="640" orientation="portrait" platform="android" src="package-assets/SplashScreen480x640.png" width="480" />
+    <splash height="960" orientation="portrait" platform="android" src="package-assets/SplashScreen720x960.png" width="720" />
+    <icon height="29" platform="ios" src="package-assets/SmileyLaunchIcon29.png" width="29" />
+    <icon height="58" platform="ios" src="package-assets/SmileyLaunchIcon58.png" width="58" />
+    <icon height="87" platform="ios" src="package-assets/SmileyLaunchIcon87.png" width="87" />
+    <icon height="60" platform="ios" src="package-assets/SmileyLaunchIcon60.png" width="60" />
+    <icon height="120" platform="ios" src="package-assets/SmileyLaunchIcon120.png" width="120" />
+    <icon height="180" platform="ios" src="package-assets/SmileyLaunchIcon180.png" width="180" />
+    <icon height="76" platform="ios" src="package-assets/SmileyLaunchIcon76.png" width="76" />
+    <icon height="152" platform="ios" src="package-assets/SmileyLaunchIcon152.png" width="152" />
+    <icon height="40" platform="ios" src="package-assets/SmileyLaunchIcon40.png" width="40" />
+    <icon height="80" platform="ios" src="package-assets/SmileyLaunchIcon80.png" width="80" />
+    <icon height="57" platform="ios" src="package-assets/SmileyLaunchIcon57.png" width="57" />
+    <icon height="114" platform="ios" src="package-assets/SmileyLaunchIcon114.png" width="114" />
+    <icon height="144" platform="ios" src="package-assets/SmileyLaunchIcon144.png" width="144" />
+    <icon height="100" platform="ios" src="package-assets/SmileyLaunchIcon100.png" width="100" />
+    <icon height="187" platform="ios" src="package-assets/SmileyLaunchIcon187.png" width="187" />
+    <icon height="72" platform="ios" src="package-assets/SmileyLaunchIcon72iOS.png" width="72" />
+    <icon height="50" platform="ios" src="package-assets/SmileyLaunchIcon50iOS.png" width="50" />
+    <icon height="167" platform="ios" src="package-assets/SmileyLaunchIcon167.png" width="167" />
+    <splash height="1004" orientation="portrait" platform="ios" src="splash/SplashScreen1004.png" width="768" />
+    <splash height="2008" orientation="portrait" platform="ios" src="splash/SplashScreen2008.png" width="1536" />
+    <splash height="1334" orientation="portrait" platform="ios" src="splash/SplashScreen1334.png" width="750" />
+    <splash height="2208" orientation="portrait" platform="ios" src="package-assets/SplashScreen2208.png" width="1242" />
+    <splash height="1136" orientation="portrait" platform="ios" src="package-assets/SplashScreen1136.png" width="640" />
+    <splash height="960" orientation="portrait" platform="ios" src="package-assets/SplashScreen640x960.png" width="640" />
+    <splash height="480" orientation="portrait" platform="ios" src="package-assets/SplashScreen320x480.png" width="320" />
+    <splash height="2048" orientation="portrait" platform="ios" src="package-assets/SplashScreen2048.png" width="1536" />
+    <splash height="1024" orientation="portrait" platform="ios" src="package-assets/SplashScreen1024.png" width="768" />
+    <splash height="2732" orientation="portrait" platform="ios" src="package-assets/SplashScreen2732.png" width="2048" />
+    <preference name="phonegap-version" value="cli-6.2.0" />
+    <preference name="xwalkMultipleApk" value="false" />
+</widget>
