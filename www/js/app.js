@@ -28,7 +28,7 @@ line 166:
 // // ...event handler code here...
 // }
 // ...additional event handlers here...
-if (!device) {device = window.device;}
+//if (!device) {device = window.device;}
 var myURL = "https://reactionthegame.com",
     user,
     userid = 0,
