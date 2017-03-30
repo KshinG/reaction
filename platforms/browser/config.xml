@@ -14,6 +14,8 @@
     <access origin="http://reactionthegame.com/*" />
     <access origin="https://reactionthegame.com/*" />
     <access origin="mailto:*" />
+    <icon src="icon.png" />
+    <splash src="splash.png" />
     <icon height="36" platform="android" src="package-assets/SmileyLaunchIcon36.png" width="36" />
     <icon height="48" platform="android" src="package-assets/SmileyLaunchIcon48.png" width="48" />
     <icon height="72" platform="android" src="package-assets/SmileyLaunchIcon72.png" width="72" />
