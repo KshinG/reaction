@@ -208,6 +208,7 @@ color: yellow !important;
     display: table-row;
     height: 50%;
 	position: relative;
+	touch-action: none;
 }
 #afui .middlec{
  /*   height: 100px; */
