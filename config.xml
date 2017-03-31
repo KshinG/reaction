@@ -12,7 +12,7 @@
 <access origin="http://reactionthegame.com/*"/>
 <access origin="https://reactionthegame.com/*"/>
 <access origin="mailto:*"/>
-<preference name="phonegap-version" value="cli-6.2.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="xwalkMultipleApk" value="false" />
 <plugin name="cordova-plugin-device" spec="1.1.1"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.0"/>
