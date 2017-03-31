@@ -206,7 +206,7 @@ var react = function() {
         $(".hideMe").hide();
     }, 100);
     var hammertop = new Hammer(document.getElementById("topScenarios"), {});
-    hammertop.on('pan panend', function(ev) { console.log(ev);
+    hammertop.on('panend pan', function(ev) { console.log(ev);
         $("#scenarios span").css("left", ev.deltaX);
         //var transform = "translate3d(" + ev.deltaX + "px, 0px, 0)"
         //        $("#scenarios span").css("webkitTransform", transform);
