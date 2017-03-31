@@ -538,9 +538,59 @@
     var latestp,
     bestp,
     worstp,
+	hammertop
     hammerslidelatest,
     hammerslidebest,
     hammerslideworst;
+	
+
+	hammertop = new Hammer(document.getElementById("topScenarios"), {});
+    hammertop.on('panleft panright panend', function(ev) { console.log(ev);
+        $("#scenarios span").css("left", ev.deltaX);
+        //var transform = "translate3d(" + ev.deltaX + "px, 0px, 0)"
+        //        $("#scenarios span").css("webkitTransform", transform);
+        if(ev.type === "panend"){
+        if(ev.isFinal){
+            if(ev.deltaX >= 30 && scenario != lastscenario){
+                if(ev.deltaX >= 30){ 
+                            var tscenario = scenario;
+                            scenario = lastscenario;
+                            lastscenario = tscenario;
+                    $("#scenarios span").animate({left: "400px", opacity: 0}, 200, function(){$("#scenarios span").css({left: "-400px"}); 
+                            $("#scenarios span").text(scenario);
+                            $("#scenarios span").textfill(30);
+                            $("#scenarios span").animate({left: "0px", opacity: 1}, 200, function(){ $("#scenarios span").css("-webkit-animation", "glow .5s 1 "); });
+                            setTimeout(function() {
+                                $("#scenarios span").css("-webkit-animation", "");
+                            }, 600);   
+                        });}
+            }else{
+            if(ev.deltaX <= -30){ 
+                $("#scenarios span").animate({left: "-400px", opacity: 0}, 200, function(){
+                    $("#scenarios span").css({left: "0px", opacity: 0, webkitTransform: "scale(0)"});
+                    lastscenario = scenario;
+                    scenario = scenarios[randomInt(0, scenarios.length)];
+                    $("#scenarios span").text(scenario);
+                    $("#scenarios span").textfill(30);
+                    $("#scenarios span").animate({ opacity: 1 }, {
+                                    step: function(now,fx) {
+                                        $(this).css('-webkit-transform',"scale(" + now + ")");
+                                        //console.log(now);
+                                    },
+                                    duration: 400
+                                },'ease');
+                    setTimeout(function() {
+                    $("#scenarios span").css("-webkit-animation", "glow .5s 1 ");
+                        }, 300);
+                    setTimeout(function() {
+                        $("#scenarios span").css("-webkit-animation", "");
+                    }, 1000);
+                });}
+                
+            }
+            if(ev.deltaX >= -29 && ev.deltaX <= 29)$("#scenarios span").animate({left: "0px"}, 100);
+        }}
+    });
 
     hammerslidelatest = new Hammer(document.getElementById("memeLlatest"), {});
     hammerslidelatest.on('panleft panright panend swipeleft swiperight', function(ev) {
