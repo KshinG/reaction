@@ -545,7 +545,7 @@
     hammerslidelatest = new Hammer(document.getElementById("memeLlatest"), {});
     hammerslidelatest.on('panleft panright panend swipeleft swiperight', function(ev) {
         if (ev.deltaY >= 12 || ev.deltaY <= -12){ev.deltaX = 0;}
-        //console.log(ev);
+        console.log(ev);
         if((ev.deltaX <= -12 || ev.deltaX >= 12) && ev.type != "swiperight" && ev.type != "swipeleft" && !timer){
         $(".hlatest").css("left", Math.max(Math.min((wwidth*0.35), ev.deltaX), -(wwidth*0.35)));
         $("#reactionthegame_pagesub").css("left", ev.deltaX);
